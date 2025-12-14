@@ -77,28 +77,26 @@ Users can download:
 
 ## Project Structure
 
-education-mne-pipeline/
-│
-├── app.py # Main Streamlit application
-├── requirements.txt # Project dependencies
-│
-├── validators/
-│ ├── schema.py # Schema validation logic
-│ ├── quality.py # Data quality checks
-│ ├── cleaning.py # Data cleaning and audit logging
-│ └── severity.py # Severity scoring
-│
-├── indicators/
-│ └── derive.py # Indicator derivation logic
-│
-├── visuals/
-│ └── plots.py # Analytical visualization functions
-│
-├── reports/
-│ └── qa_pdf.py # PDF QA report generator
-│
+education-mne-pipeline/  
+├── app.py # Main Streamlit application  
+├── requirements.txt # Project dependencies  
+│  
+├── validators/  
+│ ├── schema.py # Schema validation logic  
+│ ├── quality.py # Data quality checks  
+│ ├── cleaning.py # Data cleaning and audit logging  
+│ └── severity.py # Severity scoring  
+│  
+├── indicators/  
+│ └── derive.py # Indicator derivation logic  
+│  
+├── visuals/  
+│ └── plots.py # Analytical visualization functions  
+│  
+├── reports/  
+│ └── qa_pdf.py # PDF QA report generator  
+│  
 └── README.md
-
 
 ---
 
